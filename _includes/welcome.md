@@ -24,7 +24,7 @@ _Il n'y a pas de manière universelle d'utiliser PHP_. Pourtant, ce site est une
 options possibles, et informations de qualité. Son but est de familiariser les jeunes développeurs PHP et rafraîchir
 les connaissances des professionnels avec des concept actuels.
 
-C'est un document vivant qui sera complété avecdes informations utiles et des exemples au fur et à mesure de leurs
+C'est un document vivant qui sera complété avec des informations utiles et des exemples au fur et à mesure de leurs
 mise à disposition.
 
 ## Comment contribuer

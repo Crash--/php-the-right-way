@@ -2,30 +2,36 @@
 isChild: true
 ---
 
-## Windows Setup
+## Installation sous Windows
 
-PHP is available in several ways for Windows. You can [download the binaries](php-downloads) and until recently you could use a '.msi' 
-installer. The installer is no longer supported and stops at PHP 5.3.0.
+PHP est disponible de plusieurs façons sous Windows. Vous pouvez [télécharger les fichiers binaires][php-downloads] et 
+depuis peu, utiliser une installation automatisée avec un '.msi'. L'installeur n'est plus supporté depuis PHP 5.3.0.
 
-For learning and local development you can use the built in webserver with PHP 5.4 so you don't need to worry about configuring it. If you 
-would like an "all-in-one" which includes a full-blown webserver and MySQL too then tools such as the [Web Platform Installer][wpi], 
-[Zend Server CE][zsce], [XAMPP][xampp] and [WAMP][wamp] will help get a Windows development environment up and running fast. That said, these tools will be 
-a little different from production so be careful of environment differences if you are working on Windows and deploying to Linux.
+Pour apprendre et développer sur un serveur local, vous pouvez utiliser le serveur web intégré avec PHP 5.4 sans vous 
+préoccupez de sa configuration. Si vous voulez un "tout en un" contenant un serveur web complet et MySQL alors des 
+outils tels que [Web Platform Installer][wpi], [Zend Server CE][zsce], [XAMPP][xampp] et [WAMP][wamp] vous aideront à 
+mette en place rapidement un environnement de développement sous Windows. Cependant, ces outils peuvent être légèrement 
+différents en production donc soyez atentifs aux différences des environnements si vous développez sous Windows et 
+déployez sous Linux.
 
-If you need to run your production system on Windows then IIS7 will give you the most stable and best performance. You can use 
-[phpmanager][phpmanager] (a GUI plugin for IIS7) to make configuring and managing PHP simple. IIS7 comes with FastCGI built in and ready 
-to go, you just need to configure PHP as a handler. For support and additional resources there is a [dedicated area on iis.net][php-iis] for 
-PHP.
+Si vous devez mettre en production sur une plate-forme Windows alors IIS7 vous assurera la meileure stabilité et 
+performance. Vous pouvez utiliser [phpmanager][phpmanager] (un grefon d'interface graphique pour IIS7) pour faciliter 
+la configuration et la gestion de PHP. IIS7 intègre un FastCGI prêt à l'emploi, vous devez juste configurer PHP comme 
+gestionnaire. Vous trouverez de l'assistance et des ressources complémentaires sur la zone dédiée à PHP sur 
+[iis.net][php-iis].
 
-Generally running your application on different environment in development and production can lead to strange bugs popping up when you go 
-live. If you are developing on Windows and deploying to Linux (or anything non-Windows) then you should consider using a Virtual Machine. This 
-sounds tricky, but using [Vagrant][vagrant] you can set up simple wrappers, then using [Puppet][puppet] or [Chef][chef] you can provision these boxes and share them with your colleagues to ensure you're all working on the same stack. More on this soon.
+Généralement, exécuter votre application dans différents environnements en développement et en production peut produire
+des bogues étranges. Si vous développez sous Windows et déployez sur Linux (ou tout autre système que Windows) alors
+vous pouvez envisager d'utiliser des machines virtuelles. Celà peut paraître bisare mais grâce à [Vagrant][vagrant] vous
+pouvez installer de simples conteneurs, puis à l'aide de [Puppet][puppet] ou [Chef][chef], vous pouvez nourrir ces 
+boîtes et les partager avec vos collègues pour être sur que vous travaillez tous sur la même plate-forme. 
+Plus de détails à ce sujet prochainement.
 
 [php-downloads]: http://windows.php.net
 [phpmanager]: http://phpmanager.codeplex.com/
 [wpi]: http://www.microsoft.com/web/downloads/platform.aspx
-[zsce]: http://www.zend.com/en/products/server-ce/
-[xampp]: http://www.apachefriends.org/en/xampp.html
+[zsce]: http://www.zend.com/fr/products/server-ce/
+[xampp]: http://www.apachefriends.org/fr/xampp.html
 [wamp]: http://www.wampserver.com/
 [php-iis]: http://php.iis.net/
 [vagrant]: http://vagrantup.com/
