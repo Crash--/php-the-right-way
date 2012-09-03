@@ -1,7 +1,7 @@
 # Convention d'écriture
 
-Lacommunauté PHP est large et diverse, composée d'inombrables bibliothèques, frameworks et composants. Il est commode 
-pour les développeurs PHP d'en choisir plusieurs et de les combiner au sein d'un même projet. Il est toute fois 
+La communauté PHP est large et diversifiée, composée d'inombrables bibliothèques, frameworks et composants. Il est 
+commode pour les développeurs PHP d'en choisir plusieurs et de les combiner au sein d'un même projet. Il est toute fois 
 important que le code PHP suive (autant que possible) des conventions d'écritures communes facilitant aux développeurs 
 le mélange et l'accord des bibliothèques dans les projets.
 
