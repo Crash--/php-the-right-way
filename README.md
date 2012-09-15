@@ -1,28 +1,28 @@
 # PHP: The Right Way
 
-## Overview
+## Vue d'ensemble
 
-This is the GitHub Pages repository for the _PHP: The Right Way_ project.
+Page Github en Français pour le projet _PHP: The Right Way_ .
 
-* This website is a Jekyll project.
-* Each section and sub-section are a Markdown file in `_posts/`.
-* Sub-sections have `isChild: true` in their front matter.
-* The navigation and page structure are automatically generated.
+* Ce site internet est un projet Jekyll.
+* Chaque section et sous-section sont un fichier Markdown dans `_posts/`.
+* Les sous-sections ont `isChild: true` en début de fichier.
+* La navigation et la structure des pages sont automatiquement générées.
 
-## Spread the Word!
+## Faites passer le mot !
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP
-developers know where to find good information!
+_PHP: The Right Way_ dispose de bannières que vous pouvez utiliser sur votre site internet. Montrez votre
+support et laissez les nouveaux développeurs PHP savoir où trouver la bonne information !
 
-[See Banner Images](http://www.phptherightway.com/banners.html)
+[Voir les bannières](http://www.phptherightway.com/banners.html)
 
-## How to Contribute
+## Comment contribuer
 
-1. Fork and edit
-2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://github.com/mojombo/jekyll/) gem to preview locally
-3. Submit pull request for consideration
+1. Fork et edit
+2. Optionnellement installer [Ruby](https://rvm.io/rvm/install/) avec la gem [Jekyll](https://github.com/mojombo/jekyll/) pour prévisualier localement
+3. Envoyer votre pull request
 
-### Contributor Style Guide
+### Guide du Contributeur
 
 1. Use American English spelling (*primary English repo only*)
 2. Use four (4) spaces to indent text; do not use tabs.
