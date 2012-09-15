@@ -2,24 +2,20 @@
 isChild: true
 ---
 
-## Components
+## Composants
 
-As mentioned above "Components" are another approach to the common goal of creating, distributing and implementing shared code. Various 
-component repositories exist, the main two of which are:
+Comme mentionné précédemment les "Composants" sont une autre approche pour un même objectf : Créer, distribuer and implémenter du code partagé. Il existe plusieurs dépôts de composants, les deux principaux sont :
 
 * [Packagist](/#composer_and_packagist)
 * [PEAR](/#pear)
 
-Both of these repositories have command line tools associated with them to help the installation and upgrade processes, and have been 
-explained in more detail in the [Dependency Management][dm] section.
+Ces deux dépôts disposent d'outils en ligne de commande pour aider au processus d'installation et de mise à jour, et ont été expliqués en détails dans la section [Dependency Management][dm].
 
-There are also component-based frameworks, which allow you to use their components with minimal (or no) requirements. For example, you 
-can use the [FuelPHP Validation package][fuelval], without needing to use the FuelPHP framework itself. These projects are essentially 
-just another repository for reusable components:
+Il y a aussi des frameworks basés sur des composantes, qui vous permet de ré-utiliser leurs composants avec le minimum (ou pas du tout) de prérequis. Par exemple, vous pouvez utiliser le [paquet de validation de FuelPHP][fuelval]  sans avoir à utiliser le framework FuelPHP lui-même. Ces projets sont aussi un autre dépôt pour des composants réutilisables :
 
   [dm]: /#dependency_management
   [fuelval]: https://github.com/fuelphp/validation
 
 * [Aura](http://auraphp.github.com/)
 * [FuelPHP (2.0 only)](https://github.com/fuelphp)
-* [Symfony Components](http://symfony.com/doc/current/components/index.html)
+* [Composants Symfony](http://symfony.com/doc/current/components/index.html)
